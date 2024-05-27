@@ -1,0 +1,30 @@
+{
+  "name": "pasarelabackend",
+  "version": "1.0.0",
+  "description": "example backend to add mercado page payment method",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangeljose/pasarelaBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orangeljose/pasarelaBackend/issues"
+  },
+  "homepage": "https://github.com/orangeljose/pasarelaBackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mercadopago": "^2.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
